@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miPopupMenuAccountListEdit"
+        android:title="@string/menuitem_edit" />
+    <item
+        android:id="@+id/miPopupMenuAccountListDelete"
+        android:title="@string/menuitem_delete" />
+</menu>

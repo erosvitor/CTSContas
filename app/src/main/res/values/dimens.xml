@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="label_margin_top">8dp</dimen>
+
+    <dimen name="text_size_field_title">14sp</dimen>
+    <dimen name="text_size_field_content">14sp</dimen>
+
+    <dimen name="text_padding_top">2dp</dimen>
+    <dimen name="text_padding_bottom">8dp</dimen>
+    <dimen name="text_padding_left">8dp</dimen>
+
+</resources>

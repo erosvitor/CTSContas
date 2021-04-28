@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">CTSContas</string>
+    <string name="app_description">Controle de Despesas</string>
+    <string name="app_version">Versão: 1.0.0</string>
+    <string name="app_author">Eros Vitor Bornatowski</string>
+    <string name="app_author_contact">erosborna@gmail.com</string>
+
+    <string name="title_screen_main">CTSContas</string>
+    <string name="title_screen_account_new">Nova conta</string>
+    <string name="title_screen_account_edit">Editar conta</string>
+    <string name="title_screen_account_list">Contas cadastradas</string>
+    <string name="title_screen_about">Sobre</string>
+
+    <string name="label_type">Tipo</string>
+    <string name="label_type_fixed">Fixa</string>
+    <string name="label_type_variable">Variável</string>
+    <string name="label_category">Categoria</string>
+    <string name="label_subcategory">Sub-categoria</string>
+    <string name="label_due_date">Data Vencimento</string>
+    <string name="label_due_value">Valor Vencimento</string>
+    <string name="label_payment_date">Data Pagamento</string>
+    <string name="label_payment_value">Valor Pagamento</string>
+    <string name="label_description">Descrição</string>
+    <string name="label_select_date">clique aqui</string>
+
+    <string name="button_save">Salvar</string>
+    <string name="button_yes">Sim</string>
+    <string name="button_no">Não</string>
+
+    <string name="dialog_save_account_title">Conta</string>
+    <string name="dialog_save_account_message">Deseja salvar essa conta?</string>
+    <string name="dialog_delete_account_title">Excluir conta</string>
+    <string name="dialog_delete_account_message">Deseja mesmo excluir a conta selecionada?</string>
+    <string name="dialog_backup_title">Cópia de segurança</string>
+    <string name="dialog_backup_message">Deseja mesmo criar uma cópia de segurança?</string>
+    <string name="dialog_backup_result_ok">Cópia de segurança criada com sucesso</string>
+    <string name="dialog_backup_result_error">Não foi possível criar a cópia de segurança. Verifique as permissões.</string>
+    <string name="dialog_backup_createdir_error">Não foi possível criar o diretório para a cópia de segurança</string>
+
+    <string name="item_select">--selecione--</string>
+
+    <string name="field_required_account_type">É necessário selecionar o tipo da conta</string>
+    <string name="field_required_account_category">É necessário selecionar a categoria da conta</string>
+    <string name="field_required_account_subcategory">É necessário selecionar a sub-categoria da conta</string>
+    <string name="field_required_account_duedate">É necessário informar a data do vencimento</string>
+    <string name="field_required_account_duevalue">É necessário informar o valor do vencimento</string>
+    <string name="field_required_account_paymentdate">É necessário informar a data do pagamento</string>
+    <string name="field_required_account_paymentvalue">É necessário informar o valor do pagamento</string>
+
+    <string name="label_listview_accounts_account">Conta</string>
+    <string name="label_listview_accounts_duedate">Data vencimento</string>
+    <string name="label_listview_accounts_duevalue">Valor vencimento</string>
+    <string name="label_listview_payments_per_category_totalmonth">Total despesas</string>
+    <string name="label_listview_payments_per_category_totalcategory">Total despesas por categoria</string>
+
+    <string name="mainmenu_new_account">Nova conta</string>
+    <string name="mainmenu_list_accounts">Listar contas</string>
+    <string name="mainmenu_backup">Cópia de segurança</string>
+    <string name="mainmenu_about">Sobre</string>
+
+    <string name="menuitem_edit">Editar</string>
+    <string name="menuitem_delete">Excluir</string>
+
+    <string name="image_description_logo">Logotipo</string>
+
+    <string-array name="months">
+        <item>janeiro</item>
+        <item>fevereiro</item>
+        <item>março</item>
+        <item>abril</item>
+        <item>maio</item>
+        <item>junho</item>
+        <item>julho</item>
+        <item>agosto</item>
+        <item>setembro</item>
+        <item>outubro</item>
+        <item>novembro</item>
+        <item>dezembro</item>
+    </string-array>
+
+</resources>

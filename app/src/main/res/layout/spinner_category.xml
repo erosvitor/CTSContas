@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fldSpinnerCategoryDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/text_padding_left"
+    android:paddingTop="@dimen/text_padding_top"
+    android:paddingBottom="@dimen/text_padding_bottom"
+    android:text=""
+    android:textColor="@color/text_color_field_content"
+    android:textSize="@dimen/text_size_field_content" />
+

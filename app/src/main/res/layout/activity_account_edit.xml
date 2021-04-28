@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AccountEditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblAccountEditType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_type"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgAccountListTypeAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@id/fldAccountEditTypeFix"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/fldAccountEditTypeFix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/label_type_fixed"
+                    android:textSize="@dimen/text_size_field_content" />
+
+                <RadioButton
+                    android:id="@+id/fldAccountEditTypeVariable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/label_type_variable"
+                    android:textSize="@dimen/text_size_field_content" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lblAccountEditCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_category"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/fldAccountEditCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditSubcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_subcategory"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/fldAccountEditSubcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditDueDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_due_date"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fldAccountEditDueDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top"
+                android:textColor="@color/text_color_field_content"
+                android:textSize="@dimen/text_size_field_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditDueValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_due_value"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fldAccountEditDueValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top"
+                android:textColor="@color/text_color_field_content"
+                android:textSize="@dimen/text_size_field_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditPaymentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_payment_date"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fldAccountEditPaymentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top"
+                android:textColor="@color/text_color_field_content"
+                android:textSize="@dimen/text_size_field_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditPaymentValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_payment_value"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fldAccountEditPaymentValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|numberDecimal"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top"
+                android:textColor="@color/text_color_field_content"
+                android:textSize="@dimen/text_size_field_content" />
+
+            <TextView
+                android:id="@+id/lblAccountEditDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/label_margin_top"
+                android:text="@string/label_description"
+                android:textSize="@dimen/text_size_field_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fldAccountEditDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top"
+                android:textColor="@color/text_color_field_content"
+                android:textSize="@dimen/text_size_field_content" />
+
+            <Button
+                android:id="@+id/btnAccountEditSaveAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/color_primary"
+                android:text="@string/button_save"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

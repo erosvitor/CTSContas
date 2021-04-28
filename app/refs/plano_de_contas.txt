@@ -1,0 +1,101 @@
+
+Habitação
+- IPTU
+- Prestação
+- Aluguel
+- Condomínio
+- Seguro
+- Gás
+- Luz
+- Água
+- Extras
+
+Telefone
+- Fixo
+- Celular
+- Extras
+
+Alimentação
+- Mercado
+- Padaria
+- Açougue
+- Lanches
+- Marmitex
+- Extras
+
+Saúde
+- Plano de saúde
+- Plano dentário
+- Medicamentos
+- Extras
+
+Educação
+- Mensalidade
+- Transporte
+- Lanche
+- Curso
+- Extras
+
+Tarifas Bancárias
+- Manutenção C/C
+- Juros e IOF
+- DOC e TED
+
+Veículo
+- Financiamento
+- Seguro
+- Combustível
+- Lavagem
+- Manutenção
+- Estacionamento
+- Extras
+
+Entretenimento
+- Internet
+- TV a cabo
+- Cinema
+- Teatro
+- Extras
+
+Transporte
+- Uber
+- Táxi
+- Ônibus
+
+PET
+- Areia
+- Comida
+- Extras
+
+Aposentadoria
+- INSS
+- Privada
+
+Mesada
+- Marido
+- Esposa
+- Filhos
+
+Vestuário
+- Roupas
+- Calçados
+- Extras
+
+Salão
+- Cabeleireiro
+- Manicure
+- Sombrancelha
+- Depilação
+- Extras
+
+Esportes
+- Academia
+- Futebol
+- Ballet
+- Ginástica
+- Extras
+
+Extras
+- Presentes
+- Doações
+
