@@ -1,7 +1,7 @@
 # CTSContas
 
 ## Descrição
-O **CTSContas** é um aplicativo Android para controle de despesas pessoais. É possível cadastrar despesas fixas e variáveis, listar as despesas já cadastradas, alterar e excluir uma despesa e criar uma cópia de segurança dos dados.
+Aplicativo Android para controle de despesas pessoais. É possível cadastrar despesas fixas e variáveis, listar as despesas já cadastradas, alterar e excluir uma despesa e criar uma cópia de segurança dos dados.
 
 ## Screenshots
 
